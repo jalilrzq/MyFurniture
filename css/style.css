@@ -157,6 +157,25 @@ body {
   display: none;
 }
 
+/* Banner 2 */
+.banner2 .banner-wrapper{
+  background-color: var(--primaryColor);
+}
+.banner2 .price{
+  width: 90%;
+}
+.banner2 .price p{
+  font-size: 26px;
+}
+.banner2 .price .normal{
+  text-decoration: line-through !important;
+}
+.banner2 .price .promo{
+  font-family: var(--headingFont);
+  font-weight: 800;
+  color: var(--secondaryColor);
+}
+
 
 
 
