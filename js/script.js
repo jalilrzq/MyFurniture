@@ -16,3 +16,17 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".bxs-chevron-left-circle",
   },
 });
+
+var swiper2 = new Swiper(".mySwiperBlog", {
+  grabCursor: true,
+  spaceBetween: 20,
+  centeredSlides: false,
+  slidesPerView: "auto",
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+});

@@ -176,6 +176,15 @@ body {
   color: var(--secondaryColor);
 }
 
+/* Blog */
+.blog .card-title{
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+.blog .btn{
+  background-color: var(--secondaryColor);
+}
+
 
 
 
@@ -192,11 +201,20 @@ body {
   .popular i{
     font-size: 2.9rem;
   }
+  .banner2 .price{
+    width: 50%;
+  }
+  .banner2{
+    margin-top: 100px !important;
+  }
+  .blog{
+    margin-top: 100px !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .section-margin{
-    margin-top: 200px;
+    margin-top: 200px !important;
   }
   .home .content-left{
     padding-bottom: 40px;
