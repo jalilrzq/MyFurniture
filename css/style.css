@@ -185,6 +185,11 @@ body {
   background-color: var(--secondaryColor);
 }
 
+/* Contact Us */
+form .btn{
+  background-color: var(--secondaryColor);
+}
+
 
 
 
