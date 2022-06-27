@@ -37,3 +37,6 @@ var swiper2 = new Swiper(".mySwiperBlog", {
     disableOnInteraction: false,
   },
 });
+
+// AOS Animation
+AOS.init();
