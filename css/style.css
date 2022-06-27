@@ -196,6 +196,34 @@ form .btn{
   border-radius: 20px 20px 0px 0px;
   margin-top: 100px !important;
 }
+.footer .footer-brand{
+  color: white;
+  font-family: var(--headingFont);
+  font-weight: 900;
+}
+.footer .footer-brand span{
+  color: var(--secondaryColor);
+}
+.col1 a{
+  color: white;
+}
+.icon-footer i{
+  font-size: 2rem;
+  color: var(--secondaryColor);
+}
+.col2 h3, .col3 h3, .col4 h3, .col5 h3{
+  color: white;
+  padding-bottom: 20px;
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+.col2 ul li, .col3 ul li, .col4 ul li{
+  list-style: none;
+  margin: 10px 0px;
+}
+.col2 a, .col3 a, .col4 a{
+  color: white;
+}
 
 
 
