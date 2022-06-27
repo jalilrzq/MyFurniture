@@ -6,6 +6,13 @@ $(() => {
   })
 })
 
+$(document).ready(function(){
+  $('.nav-link').click(function(){
+    $('.nav-link').removeClass('active')
+    $(this).addClass('active')
+  })
+})
+
 var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   spaceBetween: 20,
